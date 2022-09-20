@@ -62,7 +62,7 @@ void FillArrayByUser(string [] arr)
 }
 
 Console.Clear();
-System.Console.WriteLine("Введите количество слов в массиве: ");
+System.Console.Write("Введите количество слов в массиве: ");
 int number = int.Parse(Console.ReadLine());
 string[] array = new string[number];
 FillArrayByUser(array);
